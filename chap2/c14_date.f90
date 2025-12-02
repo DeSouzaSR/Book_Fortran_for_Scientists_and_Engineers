@@ -17,4 +17,6 @@ program c14_date
   ratio = percent / 100.
   age = (-1.0 / LAMDA) * log(ratio)
 
+  ! Write out
+  write(*,*) "The age of the sample is", age, " years"
 end program c14_date
